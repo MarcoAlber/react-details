@@ -1,0 +1,35 @@
+body {
+    margin: 32px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.details-link {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 400ms;
+}
+
+.details-link:hover {
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.main-button button {
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.main-button button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.main-button {
+    color: black;
+}
